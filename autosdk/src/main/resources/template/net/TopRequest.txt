@@ -1,0 +1,27 @@
+using System;
+{0}using System.Collections.Generic;
+using Top.Api.Response;
+
+namespace Top.Api.Request
+'{'
+    /// <summary>
+    /// TOP API: {1}
+    /// </summary>
+    public class {2} : ITopRequest<{3}>
+    '{'{4}
+        #region ITopRequest Members
+
+        public string GetApiName()
+        '{'
+            return "{1}";
+        '}'
+
+        public IDictionary<string, string> GetParameters()
+        '{'
+            TopDictionary parameters = new TopDictionary();{5}
+            return parameters;
+        '}'
+
+        #endregion
+    '}'
+'}'

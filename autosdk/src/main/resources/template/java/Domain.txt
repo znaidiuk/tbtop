@@ -1,0 +1,19 @@
+package com.taobao.api.domain;
+
+{3}
+
+/**
+ * {4}
+ *
+ * @author TOP
+ * @since 2.0
+ */
+public class {0} extends TaobaoObject '{'
+
+	private static final long serialVersionUID = 1L;
+
+	{1}
+
+	{2}
+
+'}'

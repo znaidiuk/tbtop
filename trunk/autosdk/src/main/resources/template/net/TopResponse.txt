@@ -1,0 +1,12 @@
+using System;
+using System.Xml.Serialization;
+{0}
+namespace Top.Api.Response
+'{'
+    /// <summary>
+    /// {1}.
+    /// </summary>
+    public class {1} : TopResponse
+    '{'{2}
+    '}'
+'}'

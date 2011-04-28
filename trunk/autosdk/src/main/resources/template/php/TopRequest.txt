@@ -1,0 +1,22 @@
+<?php
+/**
+ * TOP API: {0} request.
+ * 
+ * @author TOP
+ * @since 2.0
+ */
+class {1}
+'{'{2}
+
+	private $apiParas = array();
+	{3}
+	public function getApiMethodName()
+	'{'
+		return "{0}";
+	'}'
+
+	public function getApiParas()
+	'{'
+		return $this->apiParas;
+	'}'
+'}'

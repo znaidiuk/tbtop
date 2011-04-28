@@ -1,0 +1,13 @@
+using System;
+using System.Xml.Serialization;
+{0}
+namespace Top.Api.Domain
+'{'
+    /// <summary>
+    /// {1} Data Structure.
+    /// </summary>
+    [Serializable]
+    public class {1} : TopObject
+    '{'{2}
+    '}'
+'}'

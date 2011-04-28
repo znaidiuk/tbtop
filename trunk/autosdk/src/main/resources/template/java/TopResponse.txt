@@ -1,0 +1,20 @@
+package com.taobao.api.response;
+
+{4}
+import com.taobao.api.TaobaoResponse;
+
+/**
+ * TOP API: {0} response.
+ * 
+ * @author TOP
+ * @since 2.0
+ */
+public class {1} extends TaobaoResponse '{'
+
+	private static final long serialVersionUID = 1L;
+
+	{2}
+
+	{3}
+
+'}'

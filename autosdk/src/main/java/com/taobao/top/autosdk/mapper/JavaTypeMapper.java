@@ -17,6 +17,8 @@ public class JavaTypeMapper implements TypeMapper {
 			langType = "FileItem";
 		} else if ("Price".equals(apiType)) {
 			langType = "String";
+		} else if ("".equals(apiType) || null == apiType) {
+			langType = "String";
 		}
 		return langType;
 	}

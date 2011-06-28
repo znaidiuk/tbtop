@@ -24,6 +24,8 @@ public class NetTypeMapper implements TypeMapper {
 			langType = "FileItem";
 		} else if ("Price".equals(apiType)) {
 			langType = "string";
+		} else if ("".equals(apiType) || null == apiType) {
+			langType = "string";
 		}
 		return langType;
 	}

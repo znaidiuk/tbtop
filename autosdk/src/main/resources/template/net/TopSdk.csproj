@@ -37,8 +37,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DefaultTopClient.cs" />{0}
+    <Compile Include="DefaultTopClient.cs" />
+    <Compile Include="DefaultTopLogger.cs" />{0}
     <Compile Include="ITopClient.cs" />
+    <Compile Include="ITopLogger.cs" />
     <Compile Include="ITopRequest.cs" />
     <Compile Include="ITopUploadRequest.cs" />
     <Compile Include="Jayrock\Json\BooleanObject.cs" />
